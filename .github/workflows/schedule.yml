@@ -1,7 +1,7 @@
 name: Update gist with latest tweet
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/60 * * * *'
 jobs:
   update-gist:
     runs-on: ubuntu-latest
