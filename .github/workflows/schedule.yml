@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: matchai/bird-box@master
+        uses: gaetanBloch/bird-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: afbe7379cc7f4eee7bd420ad9c5310c4
